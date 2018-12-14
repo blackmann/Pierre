@@ -35,5 +35,6 @@
 
 .condensed {
     /*font-family: 'Roboto Condensed', sans-serif;*/
-    font-style: italic
+    font-style: italic;
+    font-weight: 700;
 }
