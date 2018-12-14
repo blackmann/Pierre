@@ -1,0 +1,39 @@
+.navbar {
+    padding: 1em 0.5em;
+}
+
+.navbar .title {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container {
+    max-width: 1024px;
+}
+
+.divider {
+    height: 1px;
+    background-color: #eee;
+}
+
+.skill-icon {
+    width: 120px;
+    padding: 10px 20px;
+}
+
+.skill-icon-wide {
+    width: 200px;
+    padding: 10px 20px;
+}
+
+.columns-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap
+}
+
+.condensed {
+    /*font-family: 'Roboto Condensed', sans-serif;*/
+    font-style: italic
+}

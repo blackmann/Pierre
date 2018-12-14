@@ -1,0 +1,15 @@
+var typespace = document.getElementById("typespace")
+
+var typewriter = new Typewriter(typespace, {loop: true})
+
+typewriter.typeString("A mobile app developer")
+    .pauseFor(500)
+    .deleteAll()
+    .typeString("An Oracle APEX expert")
+    .pauseFor(500)
+    .deleteAll()
+    .typeString("A web designer")
+    .pauseFor("500")
+    .deleteAll()
+    .typeString("A nice gentleman ☺️")
+    .start()
