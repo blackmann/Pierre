@@ -53,7 +53,7 @@
     display: inline-block;
     margin: 5px;
     padding: 4px 8px;
-    background-color: #00d1b28c;
+    background-color: #6de6ca;
     border-radius: 4px;
 }
 
@@ -61,4 +61,9 @@
     -webkit-box-shadow: 0px 2px 5px 0px rgba(217,213,217,0.39);
     -moz-box-shadow: 0px 2px 5px 0px rgba(217,213,217,0.39);
     box-shadow: 0px 2px 5px 0px rgba(217,213,217,0.39);
+}
+
+.logo {
+    height: 50px;
+    padding: 0 10px;
 }
