@@ -11,6 +11,12 @@ $(document).ready(() => {
     })
 })
 
+$(".logo").click(() => {
+    document.querySelector(".hero").scrollIntoView({
+        behavior: "smooth"
+    })
+})
+
 
 function startTyping() {
     var typespace = document.getElementById("typespace")
