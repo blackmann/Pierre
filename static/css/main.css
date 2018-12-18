@@ -45,6 +45,12 @@
     background-color: #00d1b224
 }
 
+.circle-icon-yellow {
+    border-radius: 60px;
+    padding: 8px;
+    background-color: #fff6d3
+}
+
 .has-background-whitewash {
     background: #f4feff
 }
@@ -71,5 +77,9 @@
     height: 50px;
     padding: 0 10px;
     cursor: pointer;
+}
+
+.profile-image {
+    border-radius: 250px;
 }
 
