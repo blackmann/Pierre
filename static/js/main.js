@@ -51,7 +51,7 @@ $(document).ready(() => {
     });
   });
   $('.slide').textSlider({
-    timeout: 5000,
+    timeout: 7000,
     slideTime: 0
 
   });
@@ -62,7 +62,7 @@ $(".logo").click(() => {
     behavior: "smooth"
   })
 })
-$('.navbar-end .navbar-item').click(function(e) {
+$('.navbar-end .navbar-item:not(".nav_blog")').click(function(e) {
   e.preventDefault();
   $(".navbar-menu").removeClass('is-active');
   $(".navbar-burger").removeClass('is-active');
