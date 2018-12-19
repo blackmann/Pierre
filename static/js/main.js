@@ -79,16 +79,16 @@ function startTyping() {
     loop: true
   })
 
-  typewriter.typeString("A mobile app developer")
+  typewriter.typeString("<span class='mobile_app'>A mobile app developer</span>")
     .pauseFor(500)
     .deleteAll()
-    .typeString("An Oracle APEX expert")
+    .typeString("<span class='apex_expert'>An Oracle APEX expert</span>")
     .pauseFor(500)
     .deleteAll()
-    .typeString("A leader in the Official Oracle Forum")
+    .typeString("<span class='apex_leader'>A leader in the Official Oracle Forum</span>")
     .pauseFor("500")
     .deleteAll()
-    .typeString("A beautiful web designer")
+    .typeString("<span class='web_designer'>A beautiful web designer</span>")
     .start()
 }
 
