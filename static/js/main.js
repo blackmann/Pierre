@@ -57,13 +57,21 @@ $(".logo").click(() => {
         behavior: "smooth"
     })
 })
+$('.navbar-end .navbar-item').click(function(e) {
+  e.preventDefault();
+  $(".navbar-menu").removeClass('is-active');
+  $(".navbar-burger").removeClass('is-active');
+  $('html, body').animate({
+    scrollTop: $("" + $(this).find("a").first().attr("href")).offset().top
+  }, 500);
+});
 
 
 function startTyping() {
     var typespace = document.getElementById("typespace")
 
     var typewriter = new Typewriter(typespace, {loop: true})
-    
+
     typewriter.typeString("A mobile app developer")
         .pauseFor(500)
         .deleteAll()
