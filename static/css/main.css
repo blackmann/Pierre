@@ -81,5 +81,13 @@
 
 .profile-image {
     border-radius: 250px;
+    height: 150px;
+    border: 3px solid #3273dc;
+    padding: 5px;
+}
+
+.hero-bg {
+    background-image: url('../images/rawpixel-594848-unsplash.jpg');
+    background-size: cover
 }
 
