@@ -119,3 +119,7 @@
   background-color: #126567;
   border-color: #126567;
 }
+.slider-item{
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
