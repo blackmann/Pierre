@@ -91,3 +91,31 @@
     background-size: cover
 }
 
+.resume {
+  padding-top: 19px;
+}
+
+.button:hover {
+  -webkit-transform: translateY(-3px);
+  box-shadow: 0 10px 20px hsla(0, 0%, 86.3%, .5);
+  transform: translateY(-3px);
+}
+
+.button.twitter {
+  background-color: #1da1f2;
+  border-color: #1da1f2;
+}
+
+.button.linkedin-in {
+  background-color: #0077b5;
+  border-color: #0077b5;
+}
+
+.button.github {
+  background-color: #333;
+  border-color: #333;
+}
+.button.xing{
+  background-color: #126567;
+  border-color: #126567;
+}
